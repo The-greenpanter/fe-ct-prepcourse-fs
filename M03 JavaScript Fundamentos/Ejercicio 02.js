@@ -2,25 +2,24 @@
 /*2️⃣ EJERCICIO 02 2️⃣*/
 
 function devolverString(string) {
-   // Debe retornar un string.
-   // Tu código:
+   const respuesta = string;
+   return respuesta
 }
 
 // ⛔️ "X" e "Y" son números.
 
 function suma(x, y) {
-   // Retorna el resultado de su suma.
-   // Tu código:
+const resultado = x + y;
+   return resultado;
 }
 
 function resta(x, y) {
-   // Retorna el resultado de la resta.
-   // Tu código:
+   const r = x - y
+   return r;
 }
 
 function divide(x, y) {
-   // Retorna el resultado de su división.
-   // Tu código:
+   
 }
 
 function multiplica(x, y) {
