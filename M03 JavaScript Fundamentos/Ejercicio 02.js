@@ -19,17 +19,18 @@ function resta(x, y) {
 }
 
 function divide(x, y) {
-   
+   const r = x / y
+   return r;
 }
 
 function multiplica(x, y) {
-   // Retorna el resultado de su multiplicación.
-   // Tu código:
+   const r = x * y
+   return r;
 }
 
 function obtenerResto(x, y) {
-   // Obten el resto de la división de "x" entre "y".
-   // Tu código:
+   const r = x % y
+   return r;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
