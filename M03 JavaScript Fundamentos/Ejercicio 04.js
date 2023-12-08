@@ -4,33 +4,33 @@
 // ⛔️ Recuerda que debes utilizar el objeto global "Math".
 
 function elevarAlCuadrado(num) {
-   // Retorna el valor de "num" elevado al cuadrado.
-   // Tu código:
+   let cuadrado = num**2;
+   return cuadrado;
 }
 
 function elevarAlCubo(num) {
-   // Retorna el valor de "num" elevado al cubo.
-   // Tu código:
+   let cuadrado = num**3;
+   return cuadrado;
 }
 
 function elevar(num, exponent) {
-   // Retorna el valor de "num" elevado al exponente "exponent".
-   // Tu código:
+   let cuadrado = num**exponent;
+   return cuadrado;
 }
 
 function redondearNumero(num) {
-   // Redondea "num" al entero más próximo y retórnalo.
-   // Tu código:
+   var resultado = Math.round(num);
+   return resultado;
 }
 
 function redondearHaciaArriba(num) {
-   // Redondea "num" hacia arriba y retórnalo.
-   // Tu código:
+   var resultado = Math.ceil(num);
+   return resultado;
 }
 
 function numeroRandom() {
-   // Genera un número al azar entre 0 y 1 y retórnalo.
-   // Tu código:
+   var resultado = Math.random();
+   return resultado;
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
