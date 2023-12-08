@@ -8,29 +8,39 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
+   let respuesta = "Es ";
+   if(num < 0){
+      respuesta += "negativo";
+   } if (num > 0 ){
+      respuesta +=("positivo");
+   }else {
+      respuesta = "false";
+   }
+   return respuesta;
 }
 
 function agregarSimboloExclamacion(str) {
-   // Agrega un símbolo de exclamación al final del string "str" y retórnalo
-   // Ejemplo: "hello world" ---> "hello world!"
-   // Tu código:
+  str += "!";
+  return str;
 }
 
 function combinarNombres(nombre, apellido) {
-   // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
-   // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
-   // Tu código:
+   let str = nombre + " " + apellido;
+   return str;
 }
 
 function obtenerSaludo(nombre) {
    // Toma el string "nombre" y concatena otra string en la cadena para que tome la siguiente forma:
    // Ejemplo: "Martin" ---> "Hola Martin!"
    // Tu código:
+   let str = "Hola" + nombre ;
+   return str;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
    // Retornar el área de un rectángulo teniendo su altura y ancho.
    // Tu código:
+
 }
 
 function retornarPerimetro(lado) {
